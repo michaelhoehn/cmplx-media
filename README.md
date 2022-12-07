@@ -1,2 +1,5 @@
 # cmplx-media
-Website for web3 storefront 
+
+Welcome to my personal portfolio + marketplace
+
+### I made this for you.

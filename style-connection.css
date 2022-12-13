@@ -1,0 +1,79 @@
+#walletconnect-wrapper {
+    pointer-events: auto;
+    color: #3b99fc
+}
+
+#walletconnect-wrapper:empty,
+#walletconnect-wrapper :is(a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h1:empty, h2:empty, h3:empty, h4:empty, h5:empty, h6:empty) {
+    display: inherit!important
+}
+
+#m-connection {
+    height: auto;
+    width: 180px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+#m-connection:focus {
+    outline: none
+}
+
+#m-connection .m-connection-dropdown {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto
+}
+
+#m-connection div {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+#m-connection button {
+    display: block;
+    width: 100%;
+    height: 50px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 10px;
+    cursor: pointer;
+    line-height: 1em;
+    border: none;
+    background: #fff;
+}
+
+#m-connection button span {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit
+}
+
+#m-connection button .m-connection-chain-id {
+    width: 10px;
+    height: 10px;
+    font-size: 0;
+    border-radius: 50%
+}
+
+#m-connection button:hover {
+    background: #111827;
+    color: #fff
+}
+
+.m-connected-container>button {
+    display: flex
+}
+
+.m-connection-chain-id {
+    display: inline-block;
+    margin: 0 2px
+}
